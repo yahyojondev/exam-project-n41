@@ -158,18 +158,46 @@ header {
   gap: 10px;
 }
 
-body {
+main {
+  padding-bottom: 80px;
   background: var(--Main-BGPage, #FBF8EC);
 }
 
-.home img {
-  background-color: #fff;
-  padding-top: 72px;
+.home {
+  padding-top: 73px;
+  height: 202px;
+}
+.home .home__wrapper {
+  background: url(../../assets/images/home.svg) no-repeat;
+  background-size: cover;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 120px;
+}
+.home .home__wrapper img {
   width: 100%;
+  max-width: 400px;
+  padding-left: 64px;
+}
+.home .home__wrapper h1 {
+  color: var(--Main-onSurface, #414141);
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
 }
 
 .aksiya {
-  padding-top: 80px;
+  padding-top: 150px;
 }
 .aksiya ul {
   display: -webkit-box;
@@ -515,10 +543,72 @@ span {
 }
 
 footer {
-  padding-top: 80px;
+  height: 150px;
+  background-color: #F9F4E2;
 }
-footer img {
-  width: 100%;
+
+.footer__wrapper {
+  padding-top: 24px;
+  height: 126px;
+  background: url(../../assets/images/footer.bg.png) no-repeat;
+  background-size: cover;
+}
+.footer__wrapper__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 133px;
+}
+.footer__wrapper__top__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+.footer__wrapper__top__left li a {
+  color: var(--Main-onSurface, #414141);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footer__wrapper__top__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.footer__wrapper__top__right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+.footer__wrapper__top__right ul li a {
+  color: var(--Main-onSurface, #414141);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footer__wrapper__bottom {
+  padding: 30px 0px 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 8px;
 }
 
 @media only screen and (min-width: 280px) {

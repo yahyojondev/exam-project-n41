@@ -11,7 +11,7 @@
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://lottie.host/4c4671f5-8286-46b9-9ee6-114cd4446b16/xeqBblOVjW.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop  autoplay direction="1" mode="normal"></lottie-player>
 </div>
-   <header>
+    <header>
         <nav class="container">
            <div class="navbar">
               <ul>
@@ -37,15 +37,17 @@
               </ul>
            </div>
         </nav>
-   </header>
+   </header> 
    <button id="mode-btn">
     <img src="./assets/images/dark.svg" alt="" />
     <img src="./assets/images/light.svg" alt="" />
 </button>
-   <main>
-      <section class="home" style="position: relative;">
-        <!-- <img src="./assets/images/Group 7100.png" alt=""> -->
-        <img src="./assets/images/home.img" alt="">
+    <main>
+      <section class="home">
+             <div class="home__wrapper">
+          <img src="./assets/images/home.svg.left.svg" alt="img">
+          <h1>Доставка бесплатно от 1000 ₽</h1>
+        </div>
       </section>
       <section class="aksiya">
        <div class="container">
@@ -269,7 +271,7 @@
          <div class="container">
             <ul class="box__cards__list">
           <li><a class="title" href="#">Акции</a></li>
-          <li><a class="cards__link" href="#"><p>Все продукты</p> <img src="./assets/images/chevron-right.svg" alt=""></a></li>
+          <li><a class="cards__link" href="#"><a>Все продукты</a> <img src="./assets/images/chevron-right.svg" alt=""></a></li>
         </ul>
         <div class="cards__wrapper">
            <div class="cards__wrapper__card">
@@ -302,9 +304,38 @@
         </div>
          </div>
       </section>
-   </main>
+   </main> 
    <footer>
-       <img src="./assets/images/footer.full.png" alt="full">
+    <div class="footer__wrapper">
+      <div class="container">
+            <div class="footer__wrapper__top">
+            <ul class="footer__wrapper__top__left">
+              <li class="footer__wrapper__top__left__list"><a href="#"><img src="./assets/images/footer.logo.svg" alt=""></a></li>
+              <li class="footer__wrapper__top__left__list"><a href="#">О компании</a></li>
+              <li class="footer__wrapper__top__left__list"><a href="#">Контакты</a></li>
+              <li class="footer__wrapper__top__left__list"><a href="#">Вакансии</a></li>
+              <li class="footer__wrapper__top__left__list"><a href="#">Статьи</a></li>
+              <li class="footer__wrapper__top__left__list"><a href="#">Политика обработки персональных данных</a></li>
+            </ul>
+           <div class="footer__wrapper__top__right">
+            <ul>
+              <li><a href="#"><img src="./assets/images/instagram.svg" alt=""></a></li>
+              <li><a href="#"><img src="./assets/images/vkontakte.svg" alt=""></a></li>
+              <li><a href="#"><img src="./assets/images/facebook.svg" alt=""></a></li>
+              <li><a href="#"><img src="./assets/images/ok.svg" alt=""></a></li>
+            </ul>
+            <ul>
+              <li><a href="#"><img src="./assets/images/phone.svg" alt=""></a></li>
+              <li><a href="#">8 800 777 33 33</a></li>
+            </ul>
+           </div>
+       </div>
+       <div class="footer__wrapper__bottom">
+          <p>Дизайн</p>
+          <img src="./assets/images/footer.boottom.svg" alt="">
+       </div>
+      </div>
+    </div>
    </footer>
    <script src="./js/main.js"></script>
 </body>
