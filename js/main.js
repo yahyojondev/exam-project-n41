@@ -1,10 +1,10 @@
 
 
 
-const loading = document.getElementById("loading");
+// const loading = document.getElementById("loading");
 
-const loadingDuration = 2000; // 2s
+// const loadingDuration = 2000; // 2s
 
-setTimeout(() => {
-  loading.classList.add('loading-none');
-}, loadingDuration);
+// setTimeout(() => {
+//   loading.classList.add('loading-none');
+// }, loadingDuration);
