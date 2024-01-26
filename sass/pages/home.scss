@@ -137,8 +137,8 @@
                     .home{
                       padding-top:73px;
                       height: 202px;
-                      .home__wrapper{
-                        background: url(../../assets/images/home.svg)no-repeat;
+                      &__wrapper{
+                        background: url(../../assets/images/home-page.svg)no-repeat;
                         background-size: cover;
                         background-color: white;
                         display: flex;

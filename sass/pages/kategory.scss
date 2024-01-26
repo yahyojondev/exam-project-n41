@@ -1,0 +1,108 @@
+@use "../global";
+
+header{
+    // background-color: green;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    @media (min-width:280px){
+       
+    }
+    @media (min-width:365px) {
+    
+            .nav__list-3,
+            .nav__list-4,
+            .nav__list-5,.nav__link-2 {
+                display: block;
+            }
+                         .nav__list-2 {
+                             display: flex;
+                             border-radius: 5px;
+                             align-items: center;
+                             gap: 10px;
+                             padding: 8px;
+                             background-color: green;
+                             .nav__link-2{
+                                color: var(--Main-onSecondary, #FFF);
+                                    text-align: center;
+                                    font-family: Rubik;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 150%;
+                             }
+                         }
+        }
+        .nav__list-3{
+            display: flex;
+            width: 100%;
+            max-width: 325px;
+            align-items: center;
+            border: 1px solid green;
+            padding: 8px;
+            border-radius: 5px;
+            input{
+                outline: none;
+                border: none;
+                color: var(--Grayscale-Hard, #8F8F8F);
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+            }
+        }
+        .nav__list-4{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .nav__list-5{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            li{
+               a{
+                display: flex;
+                align-items: center;
+                gap: 16px;
+               }
+            }
+        }
+   @media (min-width:1280px){
+     .navbar-link{
+        img{
+            display: block;
+        }
+     }
+     .nav__list-2{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 12px;
+        width: 100%;
+        max-width: 140px;
+     }
+     .nav__list-3{
+        display: flex;
+        justify-content: space-between;
+     }
+     .nav__list-4,.nav__list-5{
+        a{
+            p{
+                color: var(--Main-onSurface, #414141);
+                    text-align: center;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+            }
+        }
+     }
+   }
+}
+
